@@ -42,6 +42,15 @@
     <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <style type="text/css">
+           #footer {
+  background: #555555;
+  padding: 0px;
+  padding-top: 5px;
+  min-height: 35px;
+  color: #999999;
+}
+    </style>
 </head>
 
 <body>
@@ -448,16 +457,16 @@ _________________________________________________________ -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <h1>Order # 1735</h1>
+                        <h1 class="text-uppercase">cart</h1>
                     </div>
                     <div class="col-md-5">
                         <ul class="breadcrumb">
 
                             <li><a href="index.html">Home</a>
                             </li>
-                            <li><a href="customer-orders.html">My orders</a>
+                            <li><a href="customer-orders.html">Cart</a>
                             </li>
-                            <li>Order # 1735</li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -471,12 +480,12 @@ _________________________________________________________ -->
                 <div class="row">
 
                     <!-- *** LEFT COLUMN ***
-			 _________________________________________________________ -->
+             _________________________________________________________ -->
 
                     <div class="col-md-9 clearfix" id="customer-order">
 
-                        <p class="lead">Order #1735 was placed on <strong>22/06/2013</strong> and is currently <strong>Being prepared</strong>.</p>
-                        <p class="lead text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
+                     <!--   <p class="lead">Order #1735 was placed on <strong>22/06/2013</strong> and is currently <strong>Being prepared</strong>.</p>-->
+                        <p class="lead text-muted">If you have any questions, please feel free to <a href="contact2.html">contact us</a></p>
 
                         <div class="box">
                             <div class="table-responsive">
@@ -503,6 +512,8 @@ _________________________________________________________ -->
                                             <td>$123.00</td>
                                             <td>$0.00</td>
                                             <td>$246.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a>
+                                                </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -516,6 +527,8 @@ _________________________________________________________ -->
                                             <td>$200.00</td>
                                             <td>$0.00</td>
                                             <td>$200.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a>
+                                                </td>
                                         </tr>
                                     </tbody>
                                     <tfoot>
@@ -540,7 +553,7 @@ _________________________________________________________ -->
 
                             </div>
                             <!-- /.table-responsive -->
-
+<!-- address portion needed after some time--><!--
                             <div class="row addresses">
                                 <div class="col-sm-6">
                                     <h3 class="text-uppercase">Invoice address</h3>
@@ -560,7 +573,7 @@ _________________________________________________________ -->
                                         <br>England
                                         <br>Great Britain</p>
                                 </div>
-                            </div>
+                            </div>-->
                             <!-- /.addresses -->
 
                         </div>
@@ -572,11 +585,12 @@ _________________________________________________________ -->
                     <!-- *** LEFT COLUMN END *** -->
 
                     <!-- *** RIGHT COLUMN ***
-			 _________________________________________________________ -->
+             _________________________________________________________ -->
 
                     <div class="col-md-3">
                         <!-- *** CUSTOMER MENU ***
- _________________________________________________________ -->
+                        <!--
+ _________________________________________________________ 
                         <div class="panel panel-default sidebar-menu">
 
                             <div class="panel-heading">
@@ -601,7 +615,7 @@ _________________________________________________________ -->
                                 </ul>
                             </div>
 
-                        </div>
+                        </div>-->
                         <!-- /.col-md-3 -->
 
                         <!-- *** CUSTOMER MENU END *** -->
@@ -611,7 +625,15 @@ _________________________________________________________ -->
 
                 </div>
                 <!-- /.row -->
-
+                <div class="row">
+                     <div class="col-md-3 col-md-offset-4">
+                        <a href="shop-checkout1.html"> <img src="img/place.png" class="img-responsive" style="margin-top: 10px;"> </a>
+                     </div>
+                       <div class="col-md-3 ">
+                       <a href="index.html">  <img src="img/continue.png" class="img-responsive"></a>
+                     </div>
+                    
+                </div>
 
             </div>
             <!-- /.container -->
@@ -621,7 +643,7 @@ _________________________________________________________ -->
 
         <!-- *** GET IT ***
 _________________________________________________________ -->
-
+<!-- would be changed soon
         <div id="get-it">
             <div class="container">
                 <div class="col-md-8 col-sm-12">
@@ -632,18 +654,21 @@ _________________________________________________________ -->
                 </div>
             </div>
         </div>
-
+-->
 
         <!-- *** GET IT END *** -->
 
 
         <!-- *** FOOTER ***
 _________________________________________________________ -->
-
-        <footer id="footer">
+  <footer id="footer">
             <div class="container">
-                <div class="col-md-3 col-sm-6">
-                    <h4>About us</h4>
+            <p class="pull-right">Site designed and developed by :-
+            <span class="text-uppercase">dhiraj kumar&nbsp;<a href="mailto:scientificdhiraj@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></span>,
+            <span class="text-uppercase">neha kansal&nbsp;<a href="mailto:nehakansal1005@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></span></p>
+
+              <!--  <div class="col-md-3 col-sm-6">
+                  <h4>About us</h4>
 
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
@@ -662,16 +687,16 @@ _________________________________________________________ -->
 
                     </span>
 
-                        </div>
+                        </div>-->
                         <!-- /input-group -->
-                    </form>
+                 <!--   </form>
 
                     <hr class="hidden-md hidden-lg hidden-sm">
 
-                </div>
+                </div>-->
                 <!-- /.col-md-3 -->
 
-                <div class="col-md-3 col-sm-6">
+             <!--   <div class="col-md-3 col-sm-6">
 
                     <h4>Blog</h4>
 
@@ -712,10 +737,10 @@ _________________________________________________________ -->
 
                     <hr class="hidden-md hidden-lg">
 
-                </div>
+                </div>-->
                 <!-- /.col-md-3 -->
 
-                <div class="col-md-3 col-sm-6">
+              <!--  <div class="col-md-3 col-sm-6">
 
                     <h4>Contact</h4>
 
@@ -732,12 +757,12 @@ _________________________________________________________ -->
 
                     <hr class="hidden-md hidden-lg hidden-sm">
 
-                </div>
+                </div>-->
                 <!-- /.col-md-3 -->
 
 
 
-                <div class="col-md-3 col-sm-6">
+            <!--    <div class="col-md-3 col-sm-6">
 
                     <h4>Photostream</h4>
 
@@ -774,36 +799,35 @@ _________________________________________________________ -->
                         </div>
                     </div>
 
-                </div>
+                </div>-->
                 <!-- /.col-md-3 -->
             </div>
             <!-- /.container -->
         </footer>
         <!-- /#footer -->
-
         <!-- *** FOOTER END *** -->
 
         <!-- *** COPYRIGHT ***
 _________________________________________________________ -->
-
+<!--
         <div id="copyright">
             <div class="container">
                 <div class="col-md-12">
                     <p class="pull-left">&copy; 2015. Your company / name goes here</p>
                     <p class="pull-right">Template by <a href="https://bootstrapious.com/free-templates">Bootstrapious</a> 
-                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  -->
+                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  
                     </p>
 
                 </div>
             </div>
         </div>
-        <!-- /#copyright -->
+        <!-- /#copyright 
 
-        <!-- *** COPYRIGHT END *** -->
+        <!-- *** COPYRIGHT END *** 
 
 
 
-    </div>
+    </div>-->
     <!-- /#all -->
 
 
