@@ -9,27 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Urbanluxy Bazar</title>
-
+     
     <meta name="keywords" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap and Font Awesome css -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-    <!-- Css animations  -->
     <link href="css/animate.css" rel="stylesheet">
 
-    <!-- Theme stylesheet, if possible do not edit this stylesheet -->
     <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
 
 
-    <!-- Custom stylesheet - for your changes -->
     <link href="css/custom.css" rel="stylesheet">
-       <link rel="icon"  href="img/favicon.png">
-    <style type="text/css">
+   <style type="text/css">
     #footer {
   background: #555555;
   padding: 0px;
@@ -57,6 +51,10 @@
   border: 0;
 
   font-size: 20px;
+   }
+
+   .text-size{
+    size: 0.8 em;
    }
 
      
@@ -159,7 +157,10 @@ _________________________________________________________ -->
                                     <i class="fa fa-align-justify"></i>
                                 </button>
                             </div>
-                        </div>   <div class="navbar-collapse collapse" id="navigation">
+                        </div>
+                        <!--/.navbar-header -->
+
+                        <div class="navbar-collapse collapse" id="navigation">
 
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown active">
@@ -529,7 +530,7 @@ _________________________________________________________ -->
                                 <!-- ========== FULL WIDTH MEGAMENU END ================== -->
 
                                 <li class="dropdown">
-                                  <a href="index.html#contactus">Contact</a>
+                                  <a href="#contactus">Contact</a>
                                     <!--<a href="contact2.html" >Contact <b class="caret"></b></a>-->
                               <!--      <ul class="dropdown-menu">
                                         <li><a href="contact.html">Contact option 1</a>
@@ -542,7 +543,7 @@ _________________________________________________________ -->
                                     </ul>-->
                                 </li>
                                   <li class="dropdown">
-                                  <a href="index.html#contactus">Sell</a>
+                                  <a href="#contactus">Sell</a>
                                    <!-- <a href="sell.html" >sell </a>-->
                                   <!--  <ul class="dropdown-menu">
                                         <li><a href="contact.html">Contact option 1</a>
@@ -576,8 +577,8 @@ _________________________________________________________ -->
 
 
 
-
                         <div class="collapse clearfix" id="search">
+
                             <form class="navbar-form" role="search">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Search">
@@ -600,12 +601,9 @@ _________________________________________________________ -->
 
             </div>
 
-                        <!--/.navbar-header -->
             <!-- *** NAVBAR END *** -->
 
         </header>
-
-
 
         <!-- *** LOGIN MODAL ***
 _________________________________________________________ -->
@@ -619,22 +617,24 @@ _________________________________________________________ -->
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-order.html" method="post">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="email_modal" placeholder="email">
+                            <a href="#"><img src="img/google+.png" class="img-responsive"></a>
+                              <!--  <input type="text" class="form-control" id="email_modal" placeholder="email">-->
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="password_modal" placeholder="password">
+                              <a href="#"><img src="img/fb-button.png" class="img-responsive"></a>
+                              <!--  <input type="password" class="form-control" id="password_modal" placeholder="password">-->
                             </div>
-
+<!--
                             <p class="text-center">
                                 <button class="btn btn-template-main"><i class="fa fa-sign-in"></i> Log in</button>
                             </p>
-
+-->
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="customer-register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="#"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -643,188 +643,222 @@ _________________________________________________________ -->
 
         <!-- *** LOGIN MODAL END *** -->
 
-        <div id="heading-breadcrumbs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <h1>Checkout - Address</h1>
-                    </div>
-                    <div class="col-md-5">
-                        <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a>
-                            </li>
-                            <li>Checkout - Address</li>
-                        </ul>
+        <section>
+            <!-- *** HOMEPAGE CAROUSEL ***
+ _________________________________________________________ -->
 
-                    </div>
+            <div class="home-carousel" id="productss">
+
+                <div class="dark-mask"></div>
+
+                <div class="container">
+                    <div class="homepage owl-carousel">
+                        <div class="item">
+                            <div class="row">
+
+                                <div class="col-sm-4 text-center">
+                                    <img class="img-responsive" src="img/products/navy blue.png" alt="" style="max-height: 340px;">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <h2>pear shaped Bean Bag</h2>
+                                    <p>
+                                       Flaunt with style with this Cool “Classic UrbanLuxy Bean bag” It can be used for long hour relaxed sitting with support of its cone like upper side. Its ideal for any poster sittings</p>
+                                    <ul class="list-style-none">
+                                        <li> Premium quality faux leather fabric.</li>
+                                        <li> 3.25 kgs of 100-percent virgin polystyrene round beans (3-5) mm.</li>
+                                        <li>dual layer stitching.</li>
+                                        <li>easily cleanable by cotton cloth.</li>
+                                        <li>1 year warranty on stitching.</li>
+                                        <li> Suitable of all size and age of people.</li>
+                                        <li> Carry weight upto 150 kgs.</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+
+                                <div class="col-sm-4 text-center">
+                                    <img class="img-responsive" src="img/products/Brown Chair bag.png" alt="" style="max-height: 340px;">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <h2>Brown Chair Side Bean Bag</h2>
+                                    <p>Enjoy Chair plus Bean Bag with these new Style of UrbanLuxy Bean Chair. It’s probably the most comfortable chair ever made.
+                                   </p>
+                                    <ul class="list-style-none">
+                                          <ul class="list-style-none">
+                                        <li> Premium quality faux leather fabric.</li>
+                                        <li> 3.25 kgs of 100-percent virgin polystyrene round beans (3-5) mm.</li>
+                                        <li>dual layer stitching.</li>
+                                        <li>easily cleanable by cotton cloth.</li>
+                                        <li>1 year warranty on stitching.</li>
+                                        <li> Suitable of all size and age of people.</li>
+                                        <li> Carry weight upto 150 kgs.</li>
+                                 </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                           <div class="item">
+                            <div class="row">
+
+                                <div class="col-sm-4 text-center">
+                                    <img class="img-responsive" src="img/products/OrangeLoungerA.png" alt="" style="max-height: 340px;">
+                                </div>
+
+                                <div class="col-sm-8 ">
+                                    <h2>lounger Bean Bag</h2>
+                                    <p>When you want much needed rest from your busy schedule your bed and sofa might not be your perfect choice but UrbanLuxy Bean Lounger is. This Lounger is most have For Startups and Corporation for much needed break after restless work.You can also use it in your home for relaxed sitting</p>
+                                    <ul class="list-style-none">
+                                      <li> Premium quality faux leather fabric.</li>
+                                        <li> 3.25 kgs of 100-percent virgin polystyrene round beans (3-5) mm.</li>
+                                        <li>dual layer stitching.</li>
+                                        <li>easily cleanable by cotton cloth.</li>
+                                        <li>1 year warranty on stitching.</li>
+                                        <li> Suitable of all size and age of people.</li>
+                                        <li> Carry weight upto 150 kgs.</li>
+                                 </ul>
+                                </div>
+
+                            </div>
+                     </div>
+                          <div class="item">
+                            <div class="row">
+
+                                <div class="col-sm-4 text-center">
+                                    <img class="img-responsive" src="img/products/71sh4RebjVL._SL1500_.png" alt="" style="max-height: 340px;">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <h2>moodha type Bean Bag</h2>
+                                    <p>
+                                    Get sofa plus Bean Bag with this New Bean Sofa.Stand Away from the crowd and  amaze your Friends and Family circle with these unique UrbanLuxy Bean Sofas.
+                                     </p>
+                                    <ul class="list-style-none">
+                                        
+                                      <li> Premium quality faux leather fabric.</li>
+                                        <li> 3.25 kgs of 100-percent virgin polystyrene round beans (3-5) mm.</li>
+                                        <li>dual layer stitching.</li>
+                                        <li>easily cleanable by cotton cloth.</li>
+                                        <li>1 year warranty on stitching.</li>
+                                        <li> Suitable of all size and age of people.</li>
+                                        <li> Carry weight upto 150 kgs.</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                     </div>
+                    <!-- /.project owl-slider -->
+                </div>
+            </div>
+
+            <!-- *** HOMEPAGE CAROUSEL END *** -->
+        </section>
+
+     
+
+     <div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-9">
+            <h3>Moodha</h3>
+            </div>
+            <div class="col-md-3">
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
                 </div>
             </div>
         </div>
 
-        <div id="content">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-9 clearfix" id="checkout">
-
-                        <div class="box">
-                            <form method="post" action="shop-checkout2.html">
-
-                                <ul class="nav nav-pills nav-justified">
-                                    <li class="active"><a href="#"><i class="fa fa-map-marker"></i><br>Address</a>
-                                    </li>
-                                    <li class="disabled"><a href="#"><i class="fa fa-envelope"></i><br>Sign Up</a>
-                                    </li>
-                                    <li class="disabled"><a href="#"><i class="fa fa-money"></i><br>Payment Method</a>
-                                    </li>
-                                    <li class="disabled"><a href="#"><i class="fa fa-eye"></i><br>Order Review</a>
-                                    </li>
-                                </ul>
-
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="firstname">Firstname</label>
-                                                <input type="text" class="form-control" id="firstname">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="lastname">Lastname</label>
-                                                <input type="text" class="form-control" id="lastname">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.row -->
-
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="company">Company</label>
-                                                <input type="text" class="form-control" id="company">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="street">Street</label>
-                                                <input type="text" class="form-control" id="street">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.row -->
-
-                                    <div class="row">
-                                        <div class="col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <label for="city">City</label>
-                                                <input type="text" class="form-control" id="city">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <label for="zip">ZIP</label>
-                                                <input type="text" class="form-control" id="zip">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <label for="state">State</label>
-                                                <input type="text" class="form-control" name="" id="state">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <label for="country">Country</label>
-                                                 <input type="text" class="form-control" name="" id="country">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="phone">Telephone</label>
-                                                <input type="text" class="form-control" id="phone">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <label for="email">Email</label>
-                                                <input type="text" class="form-control" id="email">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <!-- /.row -->
-                                </div>
-
-                                <div class="box-footer">
-                                    <div class="pull-left">
-                                        <a href="shop-basket.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back to basket</a>
-                                    </div>
-                                    <div class="pull-right">
-                                        <button type="submit" class="btn btn-template-main">Continue to Sign Up<i class="fa fa-chevron-right"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- /.box -->
-
-
-                    </div>
-                    <!-- /.col-md-9 -->
-
-                    <div class="col-md-3">
-
-                        <div class="box" id="order-summary">
-                            <div class="box-header">
-                                <h3>Order summary</h3>
-                            </div>
-                            <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
-
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>Order subtotal</td>
-                                            <th>$446.00</th>
-                                        </tr>
-                                        <tr>
-                                            <td>Shipping and handling</td>
-                                            <th>$10.00</th>
-                                        </tr>
-                                        <tr>
-                                            <td>Tax</td>
-                                            <th>$0.00</th>
-                                        </tr>
-                                        <tr class="total">
-                                            <td>Total</td>
-                                            <th>$456.00</th>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                </div>
-                <!-- /.row -->
-
+        <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" id="Moodha">
+               
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /#content -->
+    </div>
+</div>
 
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-9">
+                <h3>
+                    Pear</h3>
+            </div>
+            <div class="col-md-3">
+                <div class="controls pull-right hidden-xs">
+                    <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <div class="carousel-inner" id="Pear">
+               
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-9">
+            <h3>Lounger</h3>
+            </div>
+            <div class="col-md-3">
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
+                </div>
+            </div>
+        </div>
 
-        <!-- *** GET IT ***
-_________________________________________________________ -->
+        <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" id="Lounger">
+               
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-9">
+            <h3>Chair</h3>
+            </div>
+            <div class="col-md-3">
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
+                </div>
+            </div>
+        </div>
 
-       
-        <section class="bar background-pentagon no-mb">
+        <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" id="Chair">
+               
+            </div>
+        </div>
+  </div>
+  </div>
+
+   </div>
+   </div>
+         <section class="bar background-pentagon no-mb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -1388,9 +1422,690 @@ _________________________________________________________ -->
             </div>
             <!-- /.container -->
         </footer>
+        <!-- /#footer -->
+
+        <!-- *** FOOTER END *** -->
+
+        <!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+       <!-- <div id="copyright">
+            <div class="container">
+                <div class="col-md-12">
+                    <p class="pull-left">&copy; 2015. Your company / name goes here</p>
+                    <p class="pull-right">Template by <a href="https://bootstrapious.com/free-templates">Bootstrapious</a> 
+                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- /#copyright -->
+
+        <!-- *** COPYRIGHT END *** 
+
+
+
+    </div>-->
     <!-- /#all -->
 
     <!-- #### JAVASCRIPT FILES ### -->
+    
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+    </script>
+
+
+
+   
+    <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Moodha'},
+            url: 'index1.php',
+            success: loadMoodha 
+            
+        });
+
+        function loadMoodha(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Moodha Shaped F/' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Moodha Shaped F/' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#Moodha').append(input);
+        }
+    </script>
+
+     <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Pear'},
+            url: 'index1.php',
+            success: loadMoodha 
+            
+        });
+
+        function loadMoodha(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Moodha Shaped F/' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Moodha Shaped F/' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#').append(input);
+        }
+    </script>         <!-- Moodha ends ------>
+
+    <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Pear'},
+            url: 'index1.php',
+            success: loadPear 
+            
+        });
+
+        function loadPear(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Pear Shaped /' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Pear Shaped /' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#Pear').append(input);
+        }
+    </script>
+
+     <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Pear'},
+            url: 'index1.php',
+            success: loadPear
+
+            
+        });
+
+        function loadPear(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Pear Shaped /' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Pear Shaped /' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#').append(input);
+        }
+    </script>    <!-- Pear ends -->
+
+    <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Lounger'},
+            url: 'index1.php',
+            success: loadLounger 
+            
+        });
+
+        function loadLounger(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/ Lounger /' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/ Lounger /' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#Lounger').append(input);
+        }
+    </script>
+
+     <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Lounger'},
+            url: 'index1.php',
+            success: loadLounger
+            
+        });
+
+        function loadLounger(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Lounger/' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Lounger/' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#').append(input);
+        }
+    </script>
+   <!----------------  lounger ends here-->
+
+    <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Chair'},
+            url: 'index1.php',
+            success: loadChair 
+            
+        });
+
+        function loadChair(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Chair Shaped /' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Chair Shaped /' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#Chair').append(input);
+        }
+    </script>
+
+     <script type="text/javascript">
+        $.ajax({
+            type: 'post',
+            dataType: 'jsonp',
+            data: {key: 'Chair'},
+            url: 'index1.php',
+            success: loadChair
+            
+        });
+
+        function loadChair(response) {
+            var input = '<div class="item active">';
+                input += '<div class="row">';
+
+            for (var i = 0; i < 4; i++) {
+                input += '<div class="col-sm-3">';
+                input += '<div class="col-item">';
+                input += '<div class="photo">';
+                input += '<img src="img1/Chair Shaped /' + response[i].Image + '" class="img-responsive" alt="a">';
+                input += '</div>';
+                input += '<div class="info">';
+                input += '<div class="row">';
+                input += '<div class="price col-md-6">';
+                input += '<h5>';
+                input += response[i].Name + '</h5>';
+                input += '<h5 class="price-text-color">';
+                input += response[i].Price + '</h5>';
+                input += '</div>';
+                input += '</div>';
+                input += '<div class="clearfix">';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+                input += '</div>';
+            }
+
+            input += '</div>';
+            input += '</div>';
+
+            for (var j = 1; j <= response.length/4; j++) {
+                input += '<div class="item">';
+                input += '<div class="row">';
+
+                for (var k = 0; k < 4; k++) {
+                    index = j*4 + k;
+
+                    try {
+                        input += '<div class="col-sm-3">';
+                        input += '<div class="col-item">';
+                        input += '<div class="photo">';
+                        input += '<img src="img1/Chair Shaped /' + response[index].Image + '" class="img-responsive" alt="a">';
+                        input += '</div>';
+                        input += '<div class="info">';
+                        input += '<div class="row">';
+                        input += '<div class="price col-md-6">';
+                        input += '<h5>';
+                        input += response[index].Name + '</h5>';
+                        input += '<h5 class="price-text-color">';
+                        input += response[index].Price + '</h5>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '<div class="clearfix">';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';
+                        input += '</div>';    
+                    }
+                    catch(err) {
+                        console.log(err);
+                    }
+                }
+
+                input += '</div>';
+                input += '</div>';
+            }
+
+            $('#').append(input);
+        }
+    </script>
+ <!-- catagry 4 ends -->
+
+
+
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
@@ -1405,6 +2120,9 @@ _________________________________________________________ -->
     <script src="js/front.js"></script>
 
     
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
 
 
 
