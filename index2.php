@@ -148,7 +148,7 @@ _________________________________________________________ -->
                         <div class="navbar-header">
 
                             <a class="navbar-brand home" href="index.php">
-                                <h3 style="font-family: merienda; font-size: 1.5em;">Urbanluxy Bazar</h3> 
+                                <h3 style="font-family: merienda; font-size: 1.5em;">Urbanluxy <br>Premium Bean Bag</h3> 
                              <!--   <img src="img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Theonlinebazar</span>-->
                             </a>
                             <div class="navbar-buttons">
@@ -1186,7 +1186,7 @@ _________________________________________________________ -->
                             
                         
 
-                            <h3 class="text-uppercase">The Online Bazar</h3>
+                            <h3 class="text-uppercase">urbanluxy</h3>
  
                             <ul class="urban" style="list-style: none;">
                               <li>  <p class="text-justify "> <a href="mailto:urbanluxy@gmail.com" style="color:white;">  <span class="glyphicon glyphicon-envelope " style="font-size: 20px; color:white;"></span>&nbsp; &nbsp;&nbsp;urbanluxy@gmail.com </a><p></li>
