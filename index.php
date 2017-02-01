@@ -8,7 +8,7 @@
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Urbanluxy Bazar</title>
+    <title>Urbanluxy</title>
      
     <meta name="keywords" content="">
 
@@ -148,7 +148,7 @@ _________________________________________________________ -->
                         <div class="navbar-header">
 
                             <a class="navbar-brand home" href="index.php">
-                                 <h3 style="font-family: merienda; font-size: 1.5em;">Urbanluxy <br>Premium Bean Bag</h3> 
+                                 <h3 style="font-family: merienda; font-size: 1.5em;">Urbanluxy <small>Premium Bean Bag</small></h3> 
                              <!--   <img src="img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Theonlinebazar</span>-->
                             </a>
                             <div class="navbar-buttons">
@@ -643,7 +643,7 @@ _________________________________________________________ -->
 
         <!-- *** LOGIN MODAL END *** -->
 
-        <section>
+      <section>
             <!-- *** HOMEPAGE CAROUSEL ***
  _________________________________________________________ -->
 
@@ -656,11 +656,11 @@ _________________________________________________________ -->
                         <div class="item">
                             <div class="row">
 
-                                <div class="col-sm-4 text-center">
-                                    <img class="img-responsive" src="img/products/navy blue.png" alt="" style="max-height: 340px;">
+                                <div class="col-sm-5 text-center">
+                                    <img class="img-responsive" src="img/products/pear.jpg" alt="" style="max-height: 400px;">
                                 </div>
 
-                                <div class="col-sm-8">
+                                <div class="col-sm-7">
                                     <h2>pear shaped Bean Bag</h2>
                                     <p>
                                        Flaunt with style with this Cool “Classic UrbanLuxy Bean bag” It can be used for long hour relaxed sitting with support of its cone like upper side. Its ideal for any poster sittings</p>
@@ -680,11 +680,11 @@ _________________________________________________________ -->
                         <div class="item">
                             <div class="row">
 
-                                <div class="col-sm-4 text-center">
-                                    <img class="img-responsive" src="img/products/Brown Chair bag.png" alt="" style="max-height: 340px;">
+                                <div class="col-sm-5 text-center">
+                                    <img class="img-responsive" src="img/products/chair.jpg" alt="" style="max-height: 400px;">
                                 </div>
 
-                                <div class="col-sm-8">
+                                <div class="col-sm-7">
                                     <h2>Brown Chair Side Bean Bag</h2>
                                     <p>Enjoy Chair plus Bean Bag with these new Style of UrbanLuxy Bean Chair. It’s probably the most comfortable chair ever made.
                                    </p>
@@ -705,11 +705,11 @@ _________________________________________________________ -->
                            <div class="item">
                             <div class="row">
 
-                                <div class="col-sm-4 text-center">
-                                    <img class="img-responsive" src="img/products/OrangeLoungerA.png" alt="" style="max-height: 340px;">
+                                <div class="col-sm-5 text-center">
+                                    <img class="img-responsive" src="img/products/lounger.jpg" alt="" style="max-height: 400px;">
                                 </div>
 
-                                <div class="col-sm-8 ">
+                                <div class="col-sm-7 ">
                                     <h2>lounger Bean Bag</h2>
                                     <p>When you want much needed rest from your busy schedule your bed and sofa might not be your perfect choice but UrbanLuxy Bean Lounger is. This Lounger is most have For Startups and Corporation for much needed break after restless work.You can also use it in your home for relaxed sitting</p>
                                     <ul class="list-style-none">
@@ -728,11 +728,11 @@ _________________________________________________________ -->
                           <div class="item">
                             <div class="row">
 
-                                <div class="col-sm-4 text-center">
-                                    <img class="img-responsive" src="img/products/71sh4RebjVL._SL1500_.png" alt="" style="max-height: 340px;">
+                                <div class="col-sm-5 text-center">
+                                    <img class="img-responsive" src="img/products/modha.jpg" alt="" style="max-height: 400px;">
                                 </div>
 
-                                <div class="col-sm-8">
+                                <div class="col-sm-7">
                                     <h2>moodha type Bean Bag</h2>
                                     <p>
                                     Get sofa plus Bean Bag with this New Bean Sofa.Stand Away from the crowd and  amaze your Friends and Family circle with these unique UrbanLuxy Bean Sofas.
@@ -757,8 +757,7 @@ _________________________________________________________ -->
 
             <!-- *** HOMEPAGE CAROUSEL END *** -->
         </section>
-
-     
+ 
 
      <div class="container">
     <div class="row">
